@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Bahrain</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="15" rx="0.8"></rect>
+    </defs>
+    <g id="Bahrain" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g mask="url(#mask-2)">
+                <polygon id="Fill-1" fill="#FFFFFF" points="0 15 25 15 25 0 0 0"></polygon>
+                <polygon id="Fill-2" fill="#CE1126" points="6 0 9.86610812 1.49949749 6 2.99899497 9.86610812 4.49949749 6 6 9.86610812 7.49949749 6 9 9.86610812 10.4994975 6 11.998995 9.86610812 13.4994975 6 15 25 15 25 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="29px" viewBox="0 0 24 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>shopping_bag_inactive</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Final-Wireframe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Group-8" transform="translate(-175.000000, -10.000000)" fill-rule="nonzero" stroke="#dd1e26">
+            <g id="shopping_bag_inactive" transform="translate(176.000000, 11.000000)">
+                <path d="M1.53154519,8.82439298 L0.185456904,24.5768138 C0.0914111049,25.6773724 0.907350921,26.6457905 2.00790949,26.7398363 C2.06454217,26.7446758 2.1213554,26.7470988 2.17819447,26.7470988 L19.9448642,26.7470988 C21.0494337,26.7470988 21.9448642,25.8516683 21.9448642,24.7470988 C21.9448642,24.6906822 21.942477,24.634291 21.9377092,24.5780763 L20.6016728,8.82565546 C20.5138616,7.79032502 19.6478753,6.99467796 18.6088277,6.99467796 L3.52428276,6.99467796 C2.4857216,6.99467796 1.61997087,7.78960306 1.53154519,8.82439298 Z" id="Path-5" stroke-linecap="square"></path>
+                <path d="M5.99543825,13.4615758 L5.99543825,4.323509 C6.06842521,1.44116967 7.61921869,1.53984526e-13 10.6478187,0 C13.6764187,-1.51467204e-13 15.3498131,1.44116967 15.6680018,4.323509 L15.6680018,13.4615758" id="Path-9" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

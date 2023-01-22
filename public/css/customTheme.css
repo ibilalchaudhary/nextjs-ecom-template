@@ -1,0 +1,44 @@
+:root {
+  --omnisell-PrimaryColor: #dd1e26 !important;
+  --omnisell-SecondaryColor: #6c757d !important;
+  --omnisell-InfoColor: #17a2b8 !important;
+  --omnisell-DangerColor: #dd1e26 !important;
+  --omnisell-SuccessColor: #28a745 !important;
+  --omnisell-WarningColor: #ffc107 !important;
+  --omnisell-MuteColor: #6c757d !important;
+  --omnisell-DarkColor: #343a40 !important;
+  --omnisell-ButtonColor: linear-gradient(87deg,#dd1e26,#dd1e26) !important;
+  --omnisell-CartTextColor: #dd1e26 !important;
+  --omnisell-ErrorColor: #dd1e26 !important;
+  /* ===============DESKTOP============================== */
+  /* HEADER */
+  --omnisell-DesktopHeaderBGColor: linear-gradient(87deg,#dd1e26,#dd1e26) !important;
+  --omnisell-DesktopHeaderTextColor: #ffffff;
+  --omnisell-DesktopHeaderSelectedTextColor: #111111;
+  --omnisell-DesktopHeaderSelectedBGColor: #ffffff;
+
+  /* ------------------------------------------------------ */
+}
+
+
+/*:root {*/
+/*  --omnisell-PrimaryColor: #dd1e26 !important;*/
+/*  --omnisell-SecondaryColor: #6c757d !important;*/
+/*  --omnisell-InfoColor: #17a2b8 !important;*/
+/*  --omnisell-DangerColor: #dc3545 !important;*/
+/*  --omnisell-SuccessColor: #28a745 !important;*/
+/*  --omnisell-WarningColor: #ffc107 !important;*/
+/*  --omnisell-MuteColor: #6c757d !important;*/
+/*  --omnisell-DarkColor: #343a40 !important;*/
+/*  --omnisell-ButtonColor: linear-gradient(87deg,#dd1e26,#da1c5f) !important;*/
+/*  --omnisell-CartTextColor: #dd1e26 !important;*/
+/*  --omnisell-ErrorColor: #da1c5f !important;*/
+/*  !* ===============DESKTOP============================== *!*/
+/*  !* HEADER *!*/
+/*  --omnisell-DesktopHeaderBGColor: linear-gradient(87deg,#dd1e26,#da1c5f) !important;*/
+/*  --omnisell-DesktopHeaderTextColor: #ffffff;*/
+/*  --omnisell-DesktopHeaderSelectedTextColor: #111111;*/
+/*  --omnisell-DesktopHeaderSelectedBGColor: #ffffff;*/
+
+/*  !* ------------------------------------------------------ *!*/
+/*}*/
