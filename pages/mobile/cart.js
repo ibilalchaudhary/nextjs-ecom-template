@@ -43,7 +43,7 @@ const cart = () => {
         height: 'calc(100vh - 108px)',
         position: 'relative',
       }}>
-      {cart && cart.items.length ? (
+      {cart && cart?.items?.length ? (
         <div
           // className="cartSlider-wrapper"
           style={{
@@ -277,7 +277,7 @@ const cart = () => {
                         color: '#111',
                         fontSize: '1.8vh',
                         fontWeight: '600',
-                      }}>{`Rs ${cart.subtotal}`}</span>
+                      }}>{`Rs ${cart?.subtotal}`}</span>
                   </span>
                 </li>
               </ul>

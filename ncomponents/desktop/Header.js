@@ -512,14 +512,15 @@ const Header = ({ renderSearch }) => {
                   e.preventDefault()
                   push('/wishlist')
                 }}>
-                <svg
-                  className="site-header__icon"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={24}
-                  height={24}
-                  viewBox="0 0 24 24">
-                  <path d="M12 21.35l-1.45-1.32c-5.15-4.67-8.55-7.75-8.55-11.53 0-3.08 2.42-5.5 5.5-5.5 1.74 0 3.41.81 4.5 2.09 1.09-1.28 2.76-2.09 4.5-2.09 3.08 0 5.5 2.42 5.5 5.5 0 3.78-3.4 6.86-8.55 11.54l-1.45 1.31z" />
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="20.541" height="18.561" viewBox="0 0 20.541 18.561">
+                  <g id="Iconly_Curved_Heart" data-name="Iconly/Curved/Heart" transform="translate(0.772 0.839)">
+                    <g id="Heart">
+                      <path id="Stroke_1" data-name="Stroke 1" d="M.372,8.9C-.7,5.546.554,1.381,4.071.249A4.869,4.869,0,0,1,9.5,1.939a4.73,4.73,0,0,1,5.42-1.69c3.516,1.132,4.778,5.3,3.706,8.647-1.67,5.31-7.5,8.076-9.126,8.076S2.1,14.268.372,8.9Z" transform="translate(0 0)" fill="none" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="1.5"/>
+                    </g>
+                  </g>
                 </svg>
+
               </a>
               <a
                 href="/account"
@@ -529,27 +530,14 @@ const Header = ({ renderSearch }) => {
                   e.preventDefault()
                   loggedIn ? push('/account') : setAuthModal(true)(dispatch)
                 }}>
-                <svg
-                  className="site-header__icon"
-                  height={24}
-                  viewBox="0 0 24 24"
-                  width={24}
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={1}
-                  />
-                  <circle
-                    cx={12}
-                    cy={7}
-                    r={4}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={1}
-                  />
+
+
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="11.5789" cy="7.27803" r="4.77803" stroke="#200E32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path fillRule="evenodd" clipRule="evenodd" d="M4.00002 18.7014C3.99873 18.3655 4.07385 18.0337 4.2197 17.7311C4.67736 16.8158 5.96798 16.3307 7.03892 16.111C7.81128 15.9462 8.59431 15.836 9.38217 15.7815C10.8408 15.6533 12.3079 15.6533 13.7666 15.7815C14.5544 15.8367 15.3374 15.9468 16.1099 16.111C17.1808 16.3307 18.4714 16.77 18.9291 17.7311C19.2224 18.3479 19.2224 19.064 18.9291 19.6808C18.4714 20.6419 17.1808 21.0812 16.1099 21.2918C15.3384 21.4634 14.5551 21.5766 13.7666 21.6304C12.5794 21.7311 11.3866 21.7494 10.1968 21.6854C9.92221 21.6854 9.65677 21.6854 9.38217 21.6304C8.59663 21.5773 7.81632 21.4641 7.04807 21.2918C5.96798 21.0812 4.68652 20.6419 4.2197 19.6808C4.0746 19.3747 3.99955 19.0401 4.00002 18.7014Z" stroke="#200E32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
+
+
               </a>
               <a
                 id="cart_link"
@@ -560,34 +548,16 @@ const Header = ({ renderSearch }) => {
                   push('/cart')
                 }}
                 title="Go to Cart">
-                <svg
-                  className="site-header__icon"
-                  enableBackground="new 0 0 50 50"
-                  height={24}
-                  viewBox="0 0 50 50"
-                  width={24}
-                  xmlSpace="preserve"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M8,14L4,49h42l-4-35H8z"
-                    strokeLinecap="round"
-                    strokeMiterlimit={10}
-                    strokeWidth={2}
-                  />
-                  <path
-                    d="M34,19c0-1.241,0-6.759,0-8  c0-4.971-4.029-9-9-9s-9,4.029-9,9c0,1.241,0,6.759,0,8"
-                    fill="none"
-                    stroke="#000000"
-                    strokeLinecap="round"
-                    strokeMiterlimit={10}
-                    strokeWidth={2}
-                  />
-                  <circle cx={34} cy={19} r={2} />
-                  <circle cx={16} cy={19} r={2} />
+
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fillRule="evenodd" clipRule="evenodd" d="M7.48626 21.5H15.8341C18.9004 21.5 21.2528 20.3924 20.5847 15.9348L19.8066 9.89357C19.3947 7.66931 17.976 6.81805 16.7311 6.81805H6.55262C5.28946 6.81805 3.95308 7.73339 3.4771 9.89357L2.69907 15.9348C2.13157 19.889 4.4199 21.5 7.48626 21.5Z" stroke="#200E32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M7.34896 6.59839C7.34896 4.21232 9.28325 2.27802 11.6693 2.27802V2.27802C12.8183 2.27315 13.9219 2.72618 14.7361 3.53694C15.5503 4.34769 16.008 5.44938 16.008 6.59839V6.59839" stroke="#200E32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+
                 </svg>
+
                 <span id="cartCount" className="site-header__cart-count">
                   <i id="cart_count" className="cart-count filled">
-                    {cart ? cart.items.length : 0}
+                    {cart ? cart?.items?.length : 0}
                   </i>
                 </span>
               </a>

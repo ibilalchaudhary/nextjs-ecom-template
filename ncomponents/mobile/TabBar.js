@@ -117,9 +117,9 @@ const TabBar = (props) => {
               href="/cart"
               className="topbar-actions-cart  show-cart">
               <i className="icon-bag">
-                {cart && cart.items.length !== 0 && (
+                {cart && cart?.items?.length !== 0 && (
                   <span className="tabbar__tip" style={{ color: '#fff' }}>
-                    {cart.items.length}
+                    {cart?.items?.length}
                   </span>
                 )}
               </i>

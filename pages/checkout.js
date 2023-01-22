@@ -111,7 +111,7 @@ const checkout = props => {
   }
   const { step } = query
   const stepSelected = step !== '1' ? step || 2 : 2
-  if (!cart.items.length && Number(step) !== 3) push('/cart')
+  if (!cart?.items?.length && Number(step) !== 3) push('/cart')
   if (user.loggedIn && user.address.length === 0 && Number(step) === 3) {
     setStepSelected(2)
   } else if (!user.loggedIn && !guestAddress && Number(step) === 3) {
@@ -638,7 +638,7 @@ const checkout = props => {
                     margin: '2vh 0',
                   }}>
                   <span>Subtotal</span>
-                  <span>{`Rs ${cart.subtotal}`}</span>
+                  <span>{`Rs ${cart?.subtotal}`}</span>
                 </div>
                 <div
                   style={{

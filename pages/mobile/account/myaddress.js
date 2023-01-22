@@ -92,7 +92,7 @@ const myaddress = props => {
   const { step } = query
   const stepSelected = step !== '1' ? step || 2 : 2
 
-  if (!cart.items.length && Number(step) !== 3) push('/cart')
+  if (!cart?.items?.length && Number(step) !== 3) push('/cart')
 
   if (typeof user.currentAddressIndex !== 'number' && Number(step) > 1)
     push({ pathname, query: { step: 1 } })

@@ -6758,7 +6758,7 @@ const mainMobile = () => (
       background-image: url(/web-mobile/2d2899473202b16e70b90a4815bbcd51.svg);
     }
     .tabbar__tabslist li#active span {
-      color: #dd1e26;
+      color: #f53397;
     }
     .tabbar__tabslist li#active {
       border-radius: 1vh;
@@ -7879,7 +7879,7 @@ const mainMobile = () => (
     .list-reduction_tag {
       font-size: 12px;
       color: #fff;
-      background-color: #dd1e26;
+      background-color: #f53397;
       padding: 3px 5px;
       line-height: 1.5;
       text-align: center;

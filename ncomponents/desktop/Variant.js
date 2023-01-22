@@ -140,13 +140,12 @@ const Variant = ({ vIndex, variants, settings }) => {
       </Head>
       <div className="site_width_container">
         <div className="responsive-layout">
-          {settings.banners !== undefined &&
-            settings.banners[Cats[vSlug]] !== undefined && (
+          {settings?.homePageBanners && (
               <Slider
                 className="multiple-slide-carousel main-carousel home-slider"
                 {...sliderSettingsMain}>
-                {settings.banners[Cats[vSlug]].slider.map(
-                  ({ _id, link, img }, index) => {
+                {settings?.homePageBanners?.heroBanners?.desktopBanner?.map(
+                  ({ _id, link, image }, index) => {
                     return (
                       <a
                         key={_id + 'banner'}
@@ -158,8 +157,8 @@ const Variant = ({ vIndex, variants, settings }) => {
                         }}>
                         <img
                           src={
-                            img
-                              ? settings.CDN_URL + img
+                            image
+                              ? image
                               : '/images/placeholder.png'
                           }
                           className="home_swiper_image"
@@ -313,7 +312,7 @@ const Variant = ({ vIndex, variants, settings }) => {
                 Recommended Categories
               </div>
               <Slider className='multiple-slide-carousel' {...sliderSettings}>
-                {variant.children.map(
+                {variant?.children?.map(
                   ({
                      name,
                      hc_header_img_url,
@@ -1005,7 +1004,7 @@ const Variant = ({ vIndex, variants, settings }) => {
       {/* <Whatsapp />  */}
       <FBChat
         pageId="107252286033498"
-        themeColor="#dd1e26"
+        themeColor="#f53397"
         htmlRef={window.location.pathname}
       />
     </div>

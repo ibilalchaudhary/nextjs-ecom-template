@@ -303,7 +303,7 @@ const Variant = ({ vIndex, variants, settings }) => {
           <div className="carousel-module-wrapper">
             <div className="wrapper">
               {!isEmpty(variants) &&
-                variant.children.map(
+                variant?.children?.map(
                   ({ name, hc_header_img_url, slug: slugX, children }) => {
                     const lName = name.toLowerCase()
                     const properName =
@@ -980,7 +980,7 @@ const Variant = ({ vIndex, variants, settings }) => {
       {/* <Whatsapp />  */}
       {/* <FBChat
         pageId="107252286033498"
-        themeColor="#dd1e26"
+        themeColor="#f53397"
         htmlRef={window.location.pathname}
       /> */}
     </div>

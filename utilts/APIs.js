@@ -1,7 +1,7 @@
 import AXIOS from 'axios'
 import { WarningLogger, InfoLogger } from './utilties'
 const JWT = require('jwt-decode')
-const HOST = 'https://api.brandcity.com.pk'
+const HOST = 'https://lite.omnisell.pk'
 // const HOST = 'http://localhost:9000'
 const HostAPI = `${HOST}/api`
 const MegaCategoryMenu = `${HostAPI}/categories/megamenu?where={"megamenu":true}`

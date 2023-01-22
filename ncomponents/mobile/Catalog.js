@@ -720,7 +720,7 @@ const Catalog = ({
                 {/* <Whatsapp />  */}
                 {/* <FBChat
                 pageId="107252286033498"
-                themeColor="#dd1e26"
+                themeColor="#f53397"
                 htmlRef={window.location.pathname}
               /> */}
               </section>

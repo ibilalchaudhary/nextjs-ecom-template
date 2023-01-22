@@ -42,7 +42,7 @@ const cart = () => {
   }
   return (
     <div className="cart-is-open clickyCart">
-      {cart && cart.items.length ? (
+      {cart && cart?.items?.length ? (
         <div className="clickyCartContainer">
           <div className="clickyCartContainerOut">
             <div className="clickyCartContainerIn">
@@ -226,7 +226,7 @@ const cart = () => {
                       style={{
                         color: '#111',
                         fontWeight: '600',
-                      }}>{`Rs ${cart.subtotal}`}</span>
+                      }}>{`Rs ${cart?.subtotal}`}</span>
                   </span>
                 </li>
               </ul>
