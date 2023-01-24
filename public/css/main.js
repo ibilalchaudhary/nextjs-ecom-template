@@ -632,12 +632,13 @@ const main = () => (
     }
 
     #site_logo {
-      height: 42px;
-      width: 113px;
+      height: 55px;
+      width: 140px;
 background-position: center;
       background-repeat: no-repeat;
       display: inline-block;
       background-size: contain;
+      background-image: url(/images/logo.png);
     }
 
     #site_header ul.customer_options,
@@ -1963,12 +1964,13 @@ scale: 1.1;
     .site-header__cart-count {
       position: absolute;
       pointer-events: none;
-      font-size: 11px;
-      top: 10px;
+      font-size: 10px;
+      top: 8px;
       text-align: center;
       left: 0;
       right: 0;
       color: #0a0a0a;
+      font-weight: 600;
     }
 
     .site-header__cart-count .retry {

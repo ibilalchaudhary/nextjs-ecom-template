@@ -224,13 +224,13 @@ const Header = ({ renderSearch }) => {
           <div className="site-header__logo">
             <a
               id="site_logo"
-              style={{
-                backgroundImage: `url(${
-                  settings.logo
-                    ? settings.CDN_URL + encodeURI(settings.logo)
-                    : '/web-desktop/'
-                })`,
-              }}
+              // style={{
+              //   backgroundImage: `url(${
+              //     settings.logo
+              //       ? settings.CDN_URL + encodeURI(settings.logo)
+              //       : '/web-desktop/'
+              //   })`,
+              // }}
               href="/"
               onClick={e => {
                 e.preventDefault()

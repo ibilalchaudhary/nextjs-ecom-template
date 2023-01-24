@@ -185,6 +185,8 @@ const checkout = props => {
           paymentMethod: 'COD',
           platform: 'website',
         }).then(RES => {
+          console.log("order user", RES)
+
           if (!!RES) {
             refreshCart(token)(dispatch)
             const { amount, _id } = RES
@@ -206,6 +208,7 @@ const checkout = props => {
           paymentMethod: 'COD',
           platform: 'website',
         }).then(RES => {
+          console.log("guest", RES)
           if (!!RES) {
             refreshCart(token)(dispatch)
             const { amount, _id } = RES
