@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 52 46" style="enable-background:new 0 0 52 46;" xml:space="preserve">
-<title>Icons/Tab_Bar/Inactive/Favorites</title>
-<desc>Created with Sketch.</desc>
-<g id="Page-1" >
-	<g id="Atoms_x2F_Icons_x2F_Tab_x5F_Bar_x2F_Inactive_x2F_Favorites" >
-		<g id="Combined-Shape" stroke="#f53397">
-			<path  d="M24.9,46C24.9,46,24.9,46,24.9,46c-0.6,0-1.1-0.2-1.5-0.6L3.8,24.7c-5.5-5.8-5.3-15,0.4-20.6c5.7-5.6,14.7-5.4,20.2,0.4
-				l1.6,1.6l2-1.9c2.8-2.6,6.4-4,10.2-3.9c3.8,0.1,7.3,1.8,9.9,4.6c2.6,2.8,4,6.5,3.8,10.4c-0.1,3.9-1.7,7.5-4.5,10.1L26.7,45.1
-				c-0.1,0.1-0.2,0.2-0.4,0.3l-0.1,0.1C25.9,45.8,25.4,46,24.9,46z M14.1,2.1c-3.2,0-6.2,1.2-8.5,3.5c-4.9,4.8-5,12.7-0.3,17.7
-				l19.6,20.7l0.3-0.2L45.9,24c2.4-2.3,3.8-5.4,3.9-8.7c0.1-3.3-1.1-6.5-3.3-9c-2.2-2.4-5.3-3.8-8.5-4c-3.3-0.1-6.4,1.1-8.8,3.3
-				L25.8,9l-2.9-3.1c-2.3-2.4-5.3-3.8-8.6-3.8C14.2,2.1,14.1,2.1,14.1,2.1z" fill="#f53397"/>
-		</g>
-	</g>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" x="0" y="0" version="1.1" viewBox="0 0 52 46" style="enable-background:new 0 0 52 46" xml:space="preserve"><title>Icons/Tab_Bar/Inactive/Favorites</title><desc>Created with Sketch.</desc><g id="Page-1"><g id="Atoms_x2F_Icons_x2F_Tab_x5F_Bar_x2F_Inactive_x2F_Favorites"><g id="Combined-Shape" stroke="#f53397"><path fill="#f53397" d="M24.9,46C24.9,46,24.9,46,24.9,46c-0.6,0-1.1-0.2-1.5-0.6L3.8,24.7c-5.5-5.8-5.3-15,0.4-20.6c5.7-5.6,14.7-5.4,20.2,0.4 l1.6,1.6l2-1.9c2.8-2.6,6.4-4,10.2-3.9c3.8,0.1,7.3,1.8,9.9,4.6c2.6,2.8,4,6.5,3.8,10.4c-0.1,3.9-1.7,7.5-4.5,10.1L26.7,45.1 c-0.1,0.1-0.2,0.2-0.4,0.3l-0.1,0.1C25.9,45.8,25.4,46,24.9,46z M14.1,2.1c-3.2,0-6.2,1.2-8.5,3.5c-4.9,4.8-5,12.7-0.3,17.7 l19.6,20.7l0.3-0.2L45.9,24c2.4-2.3,3.8-5.4,3.9-8.7c0.1-3.3-1.1-6.5-3.3-9c-2.2-2.4-5.3-3.8-8.5-4c-3.3-0.1-6.4,1.1-8.8,3.3 L25.8,9l-2.9-3.1c-2.3-2.4-5.3-3.8-8.6-3.8C14.2,2.1,14.1,2.1,14.1,2.1z"/></g></g></g></svg>
