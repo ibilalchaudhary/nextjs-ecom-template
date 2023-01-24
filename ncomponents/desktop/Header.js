@@ -238,186 +238,6 @@ const Header = ({ renderSearch }) => {
               }}
             />
           </div>
-          <div id="main-navigation" className="site-header__main-navigation">
-            <div className="nav-depth">
-              <ul id="genderSelector">
-                {variants.map(({ slug, name, children }) => {
-                  const active = vSlug === slug
-                  return (
-                    <li className={active ? 'active' : ''} key={name}>
-                      <a
-                        href={`/${slug}`}
-                        onClick={e => {
-                          // e.preventDefault()
-                          push(`/${slug}`)
-                        }}>
-                        {name}
-                      </a>
-                      {active === true && (
-                        <div className={stickyClass}>
-                          <ul>
-                            {children.map(
-                              (
-                                { name, slug: slugX, children: childs },
-                                index
-                              ) => {
-                                const lName = name.toLowerCase()
-                                const properName =
-                                  lName.charAt(0).toUpperCase() + lName.slice(1)
-                                return (
-                                  <li
-                                    key={name + 'a'}
-                                    className={
-                                      childs.length === 0 ? 'no-shadow' : ''
-                                    }>
-                                    <a
-                                      className={
-                                        properName === 'Sale' ||
-                                        properName === 'New arrivals'
-                                          ? 'animation-text'
-                                          : ''
-                                      }
-                                      href={`/${slug}/${slugX}?page=1`}
-                                      onClick={() => {
-                                        Router.push({
-                                          pathname: `/${slug}/${slugX}`,
-                                          query: {
-                                            page: 1,
-                                          },
-                                        })
-                                      }}
-                                      title={properName}>
-                                      {properName}
-                                    </a>
-                                    {childs.length > 0 ? (
-                                      <div className="nav-depth--background">
-                                        <ul>
-                                          <li>
-                                            <div className="nav-depth--row">
-                                              <div className="half">
-                                                <h3
-                                                  title="Shop by product"
-                                                  className="main-navigation--heading">
-                                                  Shop by product
-                                                </h3>
-                                                {childs.map(
-                                                  ({ name, slug: slugXX }) => {
-                                                    const lName = name.toLowerCase()
-                                                    const properName =
-                                                      lName
-                                                        .charAt(0)
-                                                        .toUpperCase() +
-                                                      lName.slice(1)
-                                                    return (
-                                                      <a
-                                                        key={name + 'b'}
-                                                        href={`/${slug}/${slugX}/${slugXX}`}
-                                                        onClick={e => {
-                                                          e.preventDefault()
-                                                          push({
-                                                            pathname: `/${slug}/${slugX}/${slugXX}`,
-                                                            query: {
-                                                              page: 1,
-                                                            },
-                                                          })
-                                                        }}
-                                                        title={properName}>
-                                                        {properName}
-                                                      </a>
-                                                    )
-                                                  }
-                                                )}
-                                              </div>
-                                            </div>
-                                          </li>
-                                          <li>
-                                            <div className="nav-depth--row">
-                                              <a
-                                                href="/women-beauty-products/beauty-bestsellers/"
-                                                title="Beauty bestsellers"
-                                                className="banner "
-                                                style={{}}>
-                                                <img
-                                                  src="https://a.namshicdn.com/cms/large/navigation_banners/20190827/women/beauty_bestsellers.jpg"
-                                                  alt="Beauty bestsellers"
-                                                  className=" lazyloaded"
-                                                  data-src="https://a.namshicdn.com/cms/large/navigation_banners/20190827/women/beauty_bestsellers.jpg"
-                                                  width={168}
-                                                  height={146}
-                                                />
-                                                <div className="banner-title">
-                                                  Beauty bestsellers
-                                                </div>
-                                              </a>
-                                              <a
-                                                href="/women-beauty-products-fragrances/"
-                                                title="Fragrance"
-                                                className="banner "
-                                                style={{}}>
-                                                <img
-                                                  src="https://a.namshicdn.com/cms/large/navigation_banners/20190827/women/fragrance.jpg"
-                                                  alt="Fragrance"
-                                                  className=" lazyloaded"
-                                                  data-src="https://a.namshicdn.com/cms/large/navigation_banners/20190827/women/fragrance.jpg"
-                                                  width={168}
-                                                  height={146}
-                                                />
-                                                <div className="banner-title">
-                                                  Fragrance
-                                                </div>
-                                              </a>
-                                              <a
-                                                href="/women-beauty-products/beauty-bestsellers/"
-                                                title="Beauty bestsellers"
-                                                className="banner "
-                                                style={{}}>
-                                                <img
-                                                  src="https://a.namshicdn.com/cms/large/navigation_banners/20190827/women/beauty_bestsellers.jpg"
-                                                  alt="Beauty bestsellers"
-                                                  className=" lazyloaded"
-                                                  data-src="https://a.namshicdn.com/cms/large/navigation_banners/20190827/women/beauty_bestsellers.jpg"
-                                                  width={168}
-                                                  height={146}
-                                                />
-                                                <div className="banner-title">
-                                                  Beauty bestsellers
-                                                </div>
-                                              </a>
-                                              <a
-                                                href="/women-beauty-products-fragrances/"
-                                                title="Fragrance"
-                                                className="banner "
-                                                style={{}}>
-                                                <img
-                                                  src="https://a.namshicdn.com/cms/large/navigation_banners/20190827/women/fragrance.jpg"
-                                                  alt="Fragrance"
-                                                  className=" lazyloaded"
-                                                  data-src="https://a.namshicdn.com/cms/large/navigation_banners/20190827/women/fragrance.jpg"
-                                                  width={168}
-                                                  height={146}
-                                                />
-                                                <div className="banner-title">
-                                                  Fragrance
-                                                </div>
-                                              </a>
-                                            </div>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                    ) : null}
-                                  </li>
-                                )
-                              }
-                            )}
-                          </ul>
-                        </div>
-                      )}
-                    </li>
-                  )
-                })}
-              </ul>
-            </div>
-          </div>
           <div className="site-header__right_container">
             <div className="site-header__icons">
               <div id="siteHeaderSearch" className="site-header__search">
@@ -564,6 +384,22 @@ const Header = ({ renderSearch }) => {
             </div>
           </div>
         </div>
+
+      </div>
+      <div className='nav-depth--background'>
+        {variants.map(({ slug, name, children }) => {
+          const active = vSlug === slug
+          return (
+              <a className='nav-depth--background-entry'
+                href={`/${slug}`}
+                onClick={e => {
+                  // e.preventDefault()
+                  push(`/${slug}`)
+                }}>
+                {name}
+              </a>
+          )
+        })}
       </div>
 
       <style jsx>{`
